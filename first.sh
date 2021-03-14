@@ -22,12 +22,33 @@
 
 # echo $ENV
 
-shell_array=(1 2 3 4 5 6 7)
+# shell_array=(1 2 3 4 5 6 7)
 
-shell_array[0]="string1"
-shell_array[1]="string2"
+# shell_array[0]="string1"
+# shell_array[1]="string2"
 
-for i in 0 1
-do
-    echo "Elem value: ${shell_array[$i]}"
-done
+# for i in 0 1
+# do
+#     echo "Elem value: ${shell_array[$i]}"
+# done
+
+
+# filepath="/home/garanin/Projects/fileexample.txt"
+
+# if [ -e $filepath ]; then
+    
+#     while read line; do    
+#         echo $line    
+#     done < $filepath
+
+# else
+#     echo "File isn't executeble!";
+# fi
+
+function func()
+{
+    echo "testfunc"
+}
+
+func
+
